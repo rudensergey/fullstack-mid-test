@@ -1,5 +1,13 @@
-import "../styles/globals.css";
+// absoule
+import React from "react";
 import { AppProps } from "next/app";
+
+// components
+
+// types
+
+// style
+import "../styles/globals.css";
 
 const CustomApp = ({ Component, pageProps }: AppProps) => {
   return <Component {...pageProps} />;

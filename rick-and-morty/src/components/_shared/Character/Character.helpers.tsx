@@ -1,4 +1,11 @@
+// absoule
 import React from "react";
+
+// components
+
+// types
+
+// style
 import { Span, Text } from "./Character.styled";
 
 interface IDescriptionProps {

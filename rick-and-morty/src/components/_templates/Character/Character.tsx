@@ -1,6 +1,12 @@
+// absoule
 import React from "react";
+
+// components
 import Meta from "@shared/Meta";
 
+// types
+
+// style
 import { Wrapper } from "./Character.styled";
 
 interface ICharacterTemplateProps {

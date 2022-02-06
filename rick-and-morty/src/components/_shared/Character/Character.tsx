@@ -1,7 +1,14 @@
+// absoule
 import React from "react";
-import { ICharacter } from "@types";
-import { Wrapper, Image, TextBlock, Button } from "./Character.styled";
+
+// components
 import { Description } from "./Character.helpers";
+
+// types
+import { ICharacter } from "@types";
+
+// style
+import { Wrapper, Image, TextBlock, Button } from "./Character.styled";
 
 const Character: React.FC<ICharacter> = ({ name, species, gender, avatar }) => {
   return (
