@@ -1,5 +1,5 @@
 import React from "react";
-import Meta from "../../_shared/Meta";
+import Meta from "@shared/Meta";
 
 import { Wrapper } from "./Character.styled";
 

@@ -14,7 +14,12 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "rootDirs": ["src"]
+    "rootDirs": ["src"],
+    "paths": {
+      "@templates/*": ["./src/components/_templates/*"],
+      "@shared/*": ["./src/components/_shared/*"],
+      "@mock/*": ["./mockdata/*"]
+    }
   },
   "include": ["next-env.d.ts", "src/**/*.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]

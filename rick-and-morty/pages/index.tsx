@@ -1,8 +1,10 @@
 import { NextPage } from "next";
-import MainTemplate from "../src/components/_templates/Main";
+
+import Main from "@templates/Main";
+import mock from "@mock/allCharacters.json";
 
 const Home: NextPage = () => {
-  return <MainTemplate title="Rick and Morty: Main" />;
+  return <Main title="Rick and Morty: Main" data={mock} />;
 };
 
 export default Home;
