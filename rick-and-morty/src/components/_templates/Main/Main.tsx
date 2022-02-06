@@ -1,6 +1,7 @@
 import React from "react";
 import Meta from "@shared/Meta";
-
+import Character from "@shared/Character";
+import { ICharacter } from "@types";
 import { Wrapper } from "./Main.styled";
 
 interface IMainTemplateProps {
@@ -9,20 +10,15 @@ interface IMainTemplateProps {
   title: string;
 }
 
-interface ICharacter {
-  id: number;
-  name: string;
-  status: string;
-  species: string;
-  gender: string;
-  avatar: string;
-}
-
-const MainTemplate: React.FC<IMainTemplateProps> = ({ className, title }) => {
+const MainTemplate: React.FC<IMainTemplateProps> = ({ className, title, data: { data } }) => {
   return (
     <>
       <Meta title={title} />
-      <Wrapper className={className}></Wrapper>
+      <Wrapper>
+        {data.map((char) => (
+          <Character key={char.id} {...char}></Character>
+        ))}
+      </Wrapper>
     </>
   );
 };

@@ -1,8 +1,8 @@
 import { NextPage } from "next";
-import CharacterTemplate from "@templates/Character";
+import Character from "@templates/Character";
 
 const CharacterPage: NextPage = () => {
-  return <CharacterTemplate title="Rick and Morty: Character" />;
+  return <Character title="Rick and Morty: Character" />;
 };
 
 export default CharacterPage;
