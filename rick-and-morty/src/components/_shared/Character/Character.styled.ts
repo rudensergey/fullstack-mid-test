@@ -3,16 +3,18 @@ import styled from "styled-components";
 export const Wrapper = styled(
   styled.div({
     maxWidth: "230px",
-    padding: "10px 15px",
+    padding: "15px 15px",
     margin: "10px",
     boxSizing: "border-box",
     textAlign: "left",
-    backgroundColor: "white",
+    backgroundColor: "#30373a",
+    borderRadius: "5px",
     display: "grid",
     gridTemplateRows: "170px auto 50px",
     gridTemplateColumns: "170px",
     transition: "all",
     transitionDuration: "0.2s",
+    zIndex: 2,
   })
 )`
   &:hover {
@@ -30,6 +32,7 @@ export const Image = styled.img({
 export const Text = styled.p({
   width: "100%",
   fontSize: "16",
+  color: "white",
   whiteSpace: "nowrap",
   overflow: "hidden",
   textOverflow: "ellipsis",
@@ -50,7 +53,7 @@ export const TextBlock = styled.div({
 export const Button = styled(
   styled.button({
     fontSize: "20px",
-    backgroundColor: "coral",
+    backgroundColor: "#a6eefe",
     border: "none",
     cursor: "pointer",
     transition: "all",
@@ -58,7 +61,7 @@ export const Button = styled(
   })
 )`
   &:hover {
-    background-color: rgb(220, 120, 80);
+    background-color: #8ac9d7;
   }
 `;
 

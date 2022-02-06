@@ -9,7 +9,7 @@ import Character from "@shared/Character";
 import { ICharacter } from "@types";
 
 // style
-import { Wrapper, Title } from "./Main.styled";
+import { Wrapper, Title, Wallpaper } from "./Main.styled";
 
 interface IMainTemplateProps {
   data: { data: ICharacter[] };
@@ -22,6 +22,7 @@ const MainTemplate: React.FC<IMainTemplateProps> = ({ className, title, data: { 
     <>
       <Meta title={title} />
       <Wrapper>
+        <Wallpaper />
         <Title>Rick and Morty</Title>
         {data.map((char) => (
           <Character key={char.id} {...char}></Character>
