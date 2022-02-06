@@ -1,4 +1,4 @@
-import { NextApiRequest, NextApiResponse } from 'next';
+import { NextApiRequest, NextApiResponse } from "next";
 
 /**
  * For more info on API and Dynamic API routes please read the nextJS docs here
@@ -6,7 +6,7 @@ import { NextApiRequest, NextApiResponse } from 'next';
  */
 
 const singleCharacterCtrl = (req: NextApiRequest, res: NextApiResponse) => {
-  const { slug } = req.query;
+  const { slug, } = req.query;
   res.status(200).json(slug);
 };
 

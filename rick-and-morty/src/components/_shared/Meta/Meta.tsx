@@ -1,12 +1,12 @@
-import React from 'react';
-import Head from 'next/head';
+import React from "react";
+import Head from "next/head";
 
 interface IMetaProps {
   title: string;
 }
 
 const Meta: React.FunctionComponent<IMetaProps> = ({
-  title
+  title,
 }) => {
   return (
     <Head>

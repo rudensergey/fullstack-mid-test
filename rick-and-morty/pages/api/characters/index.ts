@@ -1,4 +1,4 @@
-import { NextApiRequest, NextApiResponse } from 'next';
+import { NextApiRequest, NextApiResponse } from "next";
 
 /**
  * For more info on API routes please read the nextJS docs here
@@ -7,7 +7,7 @@ import { NextApiRequest, NextApiResponse } from 'next';
 
 const charactersCtrl = (req: NextApiRequest, res: NextApiResponse) => {
   const body: { data: LickApi.ICharacterCore[] } = {
-    data: []
+    data: [],
   };
   res.status(200).json(body);
 };

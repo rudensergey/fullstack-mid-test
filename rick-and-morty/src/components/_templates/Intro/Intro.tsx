@@ -1,7 +1,7 @@
-import React from 'react';
-import Meta from '../../_shared/Meta';
+import React from "react";
+import Meta from "../../_shared/Meta";
 
-import { IntroCopy, IntroImage, Wrapper } from './Intro.styled';
+import { IntroCopy, IntroImage, Wrapper } from "./Intro.styled";
 
 interface IIntroTemplateProps {
   className?: string;
@@ -10,7 +10,7 @@ interface IIntroTemplateProps {
 
 const IntroTemplate: React.FC<IIntroTemplateProps> = ({
   className,
-  title
+  title,
 }) => {
   return (
     <>
