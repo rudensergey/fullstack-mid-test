@@ -3,15 +3,15 @@ import React from "react";
 import Link from "next/link";
 
 // components
-import { Description } from "./Character.helpers";
+import Description from "@shared/Description";
+import Button from "@shared/Button";
 
 // types
-import { ICharacter } from "@types";
 
 // style
-import { Wrapper, Image, TextBlock, Button } from "./Character.styled";
+import { Wrapper, Image, TextBlock } from "./Character.styled";
 
-const Character: React.FC<ICharacter> = ({ id, name, species, gender, avatar }) => {
+const Character: React.FC<LickApi.ICharacterCore> = ({ id, name, species, gender, avatar }) => {
   return (
     <Wrapper>
       <Image src={avatar} />
@@ -20,7 +20,7 @@ const Character: React.FC<ICharacter> = ({ id, name, species, gender, avatar }) 
         <Description description="Gender" content={gender} />
         <Description description="Species" content={species} />
       </TextBlock>
-      <Link href={`/character/${id}`}>
+      <Link href={"/character/[slug]"} as={`/character/${id}`}>
         <Button>View Profile</Button>
       </Link>
     </Wrapper>

@@ -19,12 +19,16 @@
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
     "no-use-before-define": "off",
-    "@typescript-eslint/no-use-before-define": ["error"],
     "comma-dangle": ["error", { "objects": "always-multiline" }],
     "semi": ["error", "always"],
     "quotes": ["error", "double"],
-    "space-before-function-paren": ["error", "never"],
+    "space-before-function-paren": [
+      "error",
+      { "asyncArrow": "always", "anonymous": "never", "named": "never" }
+    ],
     "react/react-in-jsx-scope": "off",
-    "react/jsx-filename-extension": [1, { "extensions": [".ts", ".tsx"] }]
+    "react/prop-types": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".ts", ".tsx"] }],
+    "@typescript-eslint/no-use-before-define": ["error"]
   }
 }

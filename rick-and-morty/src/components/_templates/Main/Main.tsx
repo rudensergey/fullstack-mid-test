@@ -7,13 +7,12 @@ import Character from "@shared/Character";
 import Background from "@shared/Background";
 
 // types
-import { ICharacter } from "@types";
 
 // style
 import { Wrapper, Title } from "./Main.styled";
 
 interface IMainTemplateProps {
-  data: { data: ICharacter[] };
+  data: { data: LickApi.ICharacterCore[] };
   className?: string;
   title: string;
 }

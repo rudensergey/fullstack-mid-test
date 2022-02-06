@@ -6,14 +6,14 @@ import React from "react";
 // types
 
 // style
-import { Span, Text } from "./Character.styled";
+import { Text, Span } from "./Description.styled";
 
 interface IDescriptionProps {
   description: string;
-  content: string;
+  content: string | number;
 }
 
-export const Description: React.FC<IDescriptionProps> = ({ description, content }) => {
+const Description: React.FC<IDescriptionProps> = ({ description, content }) => {
   return (
     <Text>
       <Span>{description}</Span>
@@ -21,3 +21,5 @@ export const Description: React.FC<IDescriptionProps> = ({ description, content 
     </Text>
   );
 };
+
+export default Description;

@@ -29,15 +29,6 @@ export const Image = styled.img({
   backgroundSize: "cover",
 });
 
-export const Text = styled.p({
-  width: "100%",
-  fontSize: "16",
-  color: "white",
-  whiteSpace: "nowrap",
-  overflow: "hidden",
-  textOverflow: "ellipsis",
-});
-
 export const TextBlock = styled.div({
   padding: "15px 0",
   height: "100px",
@@ -48,23 +39,4 @@ export const TextBlock = styled.div({
   flexDirection: "column",
   justifyContent: "space-between",
   alignItems: "flex-start",
-});
-
-export const Button = styled(
-  styled.button({
-    fontSize: "20px",
-    backgroundColor: "#a6eefe",
-    border: "none",
-    cursor: "pointer",
-    transition: "all",
-    transitionDuration: "0.2s",
-  })
-)`
-  &:hover {
-    background-color: #8ac9d7;
-  }
-`;
-
-export const Span = styled.span({
-  fontWeight: "bold",
 });
