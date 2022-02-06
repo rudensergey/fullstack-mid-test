@@ -3,6 +3,7 @@ import React from "react";
 
 // components
 import Meta from "@shared/Meta";
+import Background from "@shared/Background";
 
 // types
 
@@ -16,10 +17,10 @@ interface ICharacterTemplateProps {
 
 const CharacterTemplate: React.FC<ICharacterTemplateProps> = ({ className, title }) => {
   return (
-    <>
+    <Background>
       <Meta title={title} />
       <Wrapper className={className}></Wrapper>
-    </>
+    </Background>
   );
 };
 

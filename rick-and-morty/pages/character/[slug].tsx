@@ -8,7 +8,6 @@ import Character from "@templates/Character";
 // types
 
 // style
-import "../styles/globals.css";
 
 const CharacterPage: NextPage = () => {
   return <Character title="Rick and Morty: Character" />;
