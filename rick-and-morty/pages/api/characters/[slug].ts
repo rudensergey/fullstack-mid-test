@@ -6,7 +6,7 @@ import { NextApiRequest, NextApiResponse } from "next";
  */
 
 const singleCharacterCtrl = (req: NextApiRequest, res: NextApiResponse) => {
-  const { slug, } = req.query;
+  const { slug } = req.query;
   res.status(200).json(slug);
 };
 

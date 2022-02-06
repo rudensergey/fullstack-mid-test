@@ -20,7 +20,7 @@
   "rules": {
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": ["error"],
-    "comma-dangle": ["error", { "objects": "always" }],
+    "comma-dangle": ["error", { "objects": "always-multiline" }],
     "semi": ["error", "always"],
     "quotes": ["error", "double"],
     "space-before-function-paren": ["error", "never"],
