@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div({
+  position: "relative",
   padding: "40px",
   boxSizing: "border-box",
 });
@@ -31,10 +32,12 @@ export const CharacterCore = styled.div`
   }
 `;
 
-export const Image = styled.img({
-  height: "200px",
-  width: "200px",
+export const ImageWrapper = styled.div({
+  display: "flex",
+  minHeight: "200px",
+  minWidth: "200px",
   borderRadius: "50%",
+  overflow: "hidden",
 });
 
 export const CharacterCoreWrapper = styled.div`

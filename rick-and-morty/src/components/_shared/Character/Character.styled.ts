@@ -14,7 +14,6 @@ export const Wrapper = styled(
     gridTemplateColumns: "170px",
     transition: "all",
     transitionDuration: "0.2s",
-    zIndex: 2,
   })
 )`
   &:hover {
@@ -22,11 +21,9 @@ export const Wrapper = styled(
   }
 `;
 
-export const Image = styled.img({
+export const ImageWrapper = styled.div({
   height: "170px",
   width: "170px",
-  backgroundPosition: "center",
-  backgroundSize: "cover",
 });
 
 export const TextBlock = styled.div({

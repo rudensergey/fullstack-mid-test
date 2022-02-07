@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div({
+  position: "relative",
   padding: "0 40px 40px",
   boxSizing: "border-box",
   display: "flex",
@@ -18,7 +19,6 @@ export const Title = styled.h1`
   justify-content: center;
   align-items: center;
   user-select: none;
-  z-index: 2;
   transition: all;
   transition-duration: 0.2s;
 

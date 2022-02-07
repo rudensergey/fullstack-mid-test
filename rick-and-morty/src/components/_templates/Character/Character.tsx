@@ -6,6 +6,7 @@ import Meta from "@shared/Meta";
 import Description from "@shared/Description";
 import Button from "@shared/Button";
 import Info from "@shared/Info";
+import Image from "@shared/Image";
 
 // helpers
 import { getEpisodeData, getLocationData } from "./Character.helpers";
@@ -15,7 +16,7 @@ import {
   Title,
   Wrapper,
   CharacterCore,
-  Image,
+  ImageWrapper,
   CharacterCoreWrapper,
   Name,
 } from "./Character.styled";
@@ -39,7 +40,9 @@ const CharacterTemplate: React.FC<ICharacterTemplateProps> = ({ data, title }) =
         {"< Back to charact listing"}
       </Button>
       <CharacterCore>
-        <Image src={avatar} />
+        <ImageWrapper>
+          <Image src={avatar} alt={name} width={200} height={200} />
+        </ImageWrapper>
         <CharacterCoreWrapper>
           <Name>{name}</Name>
           <Description description="Status" content={status} />
