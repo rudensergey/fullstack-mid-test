@@ -2,8 +2,6 @@
 import React from "react";
 import Image from "next/image";
 
-// components
-
 // style
 import { ImageWrapper } from "./Background.styled";
 

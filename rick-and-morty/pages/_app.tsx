@@ -2,20 +2,11 @@
 import React from "react";
 import { AppProps } from "next/app";
 
-// components
-
-// types
-
 // style
 import "../styles/globals.css";
-import Background from "@shared/Background";
 
 const CustomApp = ({ Component, pageProps }: AppProps) => {
-  return (
-    <Background>
-      <Component {...pageProps} />
-    </Background>
-  );
+  return <Component {...pageProps} />;
 };
 
 // Only uncomment this method if you have blocking data requirements for
