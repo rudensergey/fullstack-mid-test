@@ -9,14 +9,22 @@ export const Wrapper = styled.div({
   justifyContent: "space-around",
 });
 
-export const Title = styled.h1({
-  width: "100%",
-  height: "400px",
-  fontSize: "50px",
-  color: "white",
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
-  userSelect: "none",
-  zIndex: 2,
-});
+export const Title = styled.h1`
+  width: 100%;
+  height: 400px;
+  font-size: 60px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  z-index: 2;
+  transition: all;
+  transition-duration: 0.2s;
+
+  @media (max-width: 600px) {
+    height: 200px;
+    font-size: 40px;
+    text-align: center;
+  }
+`;
