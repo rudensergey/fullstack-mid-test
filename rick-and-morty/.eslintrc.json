@@ -19,9 +19,13 @@
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
     "no-use-before-define": "off",
-    "comma-dangle": ["error", { "objects": "always-multiline" }],
+    "comma-dangle": [
+      "error",
+      { "objects": "always-multiline", "imports": "only-multiline", "arrays": "only-multiline" }
+    ],
     "semi": ["error", "always"],
     "quotes": ["error", "double"],
+    "multiline-ternary": "off",
     "space-before-function-paren": [
       "error",
       { "asyncArrow": "always", "anonymous": "never", "named": "never" }

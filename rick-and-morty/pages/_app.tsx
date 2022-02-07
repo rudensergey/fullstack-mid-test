@@ -8,9 +8,14 @@ import { AppProps } from "next/app";
 
 // style
 import "../styles/globals.css";
+import Background from "@shared/Background";
 
 const CustomApp = ({ Component, pageProps }: AppProps) => {
-  return <Component {...pageProps} />;
+  return (
+    <Background>
+      <Component {...pageProps} />
+    </Background>
+  );
 };
 
 // Only uncomment this method if you have blocking data requirements for

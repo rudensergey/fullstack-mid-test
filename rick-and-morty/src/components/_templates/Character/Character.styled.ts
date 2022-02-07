@@ -15,6 +15,7 @@ export const CharacterCore = styled.div({
   display: "flex",
   flexDirection: "row",
   alignItems: "center",
+  justifyContent: "center",
   padding: "150px 0 40px",
 });
 
@@ -25,5 +26,22 @@ export const Image = styled.img({
 });
 
 export const CharacterCoreWrapper = styled.div({
+  height: "120px",
+  width: "100%",
   marginLeft: "40px",
+  textOverflow: "ellipsis",
+  whiteSpace: "nowrap",
+  overflow: "hidden",
+
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "space-around",
+});
+
+export const Name = styled.p({
+  fontSize: "40px",
+  color: "white",
+  fontWeight: "bold",
+  textOverflow: "ellipsis",
+  overflow: "hidden",
 });

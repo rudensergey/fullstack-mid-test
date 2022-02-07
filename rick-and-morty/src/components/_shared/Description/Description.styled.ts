@@ -7,8 +7,10 @@ export const Text = styled.p({
   whiteSpace: "nowrap",
   overflow: "hidden",
   textOverflow: "ellipsis",
+  fontWeight: "thin",
 });
 
 export const Span = styled.span({
+  color: "#a6eefe",
   fontWeight: "bold",
 });

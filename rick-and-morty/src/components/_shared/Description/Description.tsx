@@ -1,15 +1,11 @@
 // absoule
 import React from "react";
 
-// components
-
-// types
-
 // style
 import { Text, Span } from "./Description.styled";
 
 interface IDescriptionProps {
-  description: string;
+  description: string | number;
   content: string | number;
 }
 

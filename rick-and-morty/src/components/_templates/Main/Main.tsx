@@ -4,9 +4,6 @@ import React from "react";
 // components
 import Meta from "@shared/Meta";
 import Character from "@shared/Character";
-import Background from "@shared/Background";
-
-// types
 
 // style
 import { Wrapper, Title } from "./Main.styled";
@@ -17,17 +14,15 @@ interface IMainTemplateProps {
   title: string;
 }
 
-const MainTemplate: React.FC<IMainTemplateProps> = ({ className, title, data: { data } }) => {
+const MainTemplate: React.FC<IMainTemplateProps> = ({ title, data: { data } }) => {
   return (
-    <Background>
+    <Wrapper>
       <Meta title={title} />
-      <Wrapper>
-        <Title>Rick and Morty</Title>
-        {data.map((char) => (
-          <Character key={char.id} {...char}></Character>
-        ))}
-      </Wrapper>
-    </Background>
+      <Title>Rick and Morty</Title>
+      {data.map((char) => (
+        <Character key={char.id} {...char} />
+      ))}
+    </Wrapper>
   );
 };
 

@@ -5,10 +5,7 @@ import { NextPage } from "next";
 // components
 import Character from "@templates/Character";
 
-// types
-
-// style
-
+// mock
 import { data } from "@mock/singleCharacter.json";
 
 interface ICharacterPageProps {
@@ -21,7 +18,7 @@ interface IGetServerSideProps {
 }
 
 const CharacterPage: NextPage<ICharacterPageProps> = ({ data }) => {
-  return <Character title="Rick and Morty: Character" data={data} />;
+  return <Character title={`Rick and Morty: ${data.name}`} data={data} />;
 };
 
 export async function getServerSideProps({ query }): Promise<IGetServerSideProps> {
