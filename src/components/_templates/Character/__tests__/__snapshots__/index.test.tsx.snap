@@ -3,7 +3,7 @@
 exports[`Character template snapshot 1`] = `
 <div>
   <div
-    class="Backgroundstyled__ImageWrapper-sc-7ewg2c-0 eEQsKR"
+    class="Backgroundstyled__ImageWrapper-sc-7ewg2c-0 fBhSrK"
   >
     <div
       style="display: block; overflow: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; margin: 0px;"
@@ -18,23 +18,23 @@ exports[`Character template snapshot 1`] = `
       <noscript />
     </div>
     <div
-      class="Characterstyled__Wrapper-sc-18gu1ab-0 bFefXC"
+      class="Characterstyled__Wrapper-sc-18gu1ab-0 bvyWpx"
     >
       <p
-        class="Characterstyled__Title-sc-18gu1ab-1 dntboA"
+        class="Characterstyled__Title-sc-18gu1ab-1 gLtUAz"
       >
         Rick and Morty
       </p>
       <button
-        class="Buttonstyled__Button-sc-1q754k2-1 Buttonstyled__Button-sc-1q754k2-0 eXKtlZ bqSPEA"
+        class="Buttonstyled__Button-sc-1q754k2-1 Buttonstyled__Button-sc-1q754k2-0 bRFmVW bDelgz"
       >
         &lt; Back to charact listing
       </button>
       <div
-        class="Characterstyled__CharacterCore-sc-18gu1ab-2 jySwLa"
+        class="Characterstyled__CharacterCore-sc-18gu1ab-2 jnRYxB"
       >
         <div
-          class="Characterstyled__ImageWrapper-sc-18gu1ab-3 gHIeWe"
+          class="Characterstyled__ImageWrapper-sc-18gu1ab-3 kXGERR"
         >
           <div
             style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
@@ -60,28 +60,28 @@ exports[`Character template snapshot 1`] = `
           </div>
         </div>
         <div
-          class="Characterstyled__CharacterCoreWrapper-sc-18gu1ab-4 ekIZXb"
+          class="Characterstyled__CharacterCoreWrapper-sc-18gu1ab-4 bgsObY"
         >
           <p
-            class="Characterstyled__Name-sc-18gu1ab-5 iEndtY"
+            class="Characterstyled__Name-sc-18gu1ab-5 dRmzYL"
           >
             Rick Sanchez
           </p>
           <p
-            class="Descriptionstyled__Text-sc-1d7kuch-0 brdlA-D"
+            class="Descriptionstyled__Text-sc-1d7kuch-0 gFVcQU"
           >
             <span
-              class="Descriptionstyled__Span-sc-1d7kuch-1 guhlyX"
+              class="Descriptionstyled__Span-sc-1d7kuch-1 erJcwk"
             >
               Status
             </span>
             : Alive
           </p>
           <p
-            class="Descriptionstyled__Text-sc-1d7kuch-0 brdlA-D"
+            class="Descriptionstyled__Text-sc-1d7kuch-0 gFVcQU"
           >
             <span
-              class="Descriptionstyled__Span-sc-1d7kuch-1 guhlyX"
+              class="Descriptionstyled__Span-sc-1d7kuch-1 erJcwk"
             >
               Origin
             </span>
@@ -90,48 +90,48 @@ exports[`Character template snapshot 1`] = `
         </div>
       </div>
       <div
-        class="Infostyled__Wrapper-sc-1c5crsb-0 iDfcrV"
+        class="Infostyled__Wrapper-sc-1c5crsb-0 idGidK"
       >
         <p
-          class="Infostyled__Title-sc-1c5crsb-1 kYnhRI"
+          class="Infostyled__Title-sc-1c5crsb-1 bTsvHP"
         >
           Location Details
         </p>
         <p
-          class="Descriptionstyled__Text-sc-1d7kuch-0 brdlA-D"
+          class="Descriptionstyled__Text-sc-1d7kuch-0 gFVcQU"
         >
           <span
-            class="Descriptionstyled__Span-sc-1d7kuch-1 guhlyX"
+            class="Descriptionstyled__Span-sc-1d7kuch-1 erJcwk"
           >
             Name
           </span>
           : Earth (Replacement Dimension)
         </p>
         <p
-          class="Descriptionstyled__Text-sc-1d7kuch-0 brdlA-D"
+          class="Descriptionstyled__Text-sc-1d7kuch-0 gFVcQU"
         >
           <span
-            class="Descriptionstyled__Span-sc-1d7kuch-1 guhlyX"
+            class="Descriptionstyled__Span-sc-1d7kuch-1 erJcwk"
           >
             Type
           </span>
           : Planet
         </p>
         <p
-          class="Descriptionstyled__Text-sc-1d7kuch-0 brdlA-D"
+          class="Descriptionstyled__Text-sc-1d7kuch-0 gFVcQU"
         >
           <span
-            class="Descriptionstyled__Span-sc-1d7kuch-1 guhlyX"
+            class="Descriptionstyled__Span-sc-1d7kuch-1 erJcwk"
           >
             Dimension
           </span>
           : Replacement Dimension
         </p>
         <p
-          class="Descriptionstyled__Text-sc-1d7kuch-0 brdlA-D"
+          class="Descriptionstyled__Text-sc-1d7kuch-0 gFVcQU"
         >
           <span
-            class="Descriptionstyled__Span-sc-1d7kuch-1 guhlyX"
+            class="Descriptionstyled__Span-sc-1d7kuch-1 erJcwk"
           >
             No. of Residents
           </span>
@@ -139,68 +139,68 @@ exports[`Character template snapshot 1`] = `
         </p>
       </div>
       <div
-        class="Infostyled__Wrapper-sc-1c5crsb-0 iDfcrV"
+        class="Infostyled__Wrapper-sc-1c5crsb-0 idGidK"
       >
         <p
-          class="Infostyled__Title-sc-1c5crsb-1 kYnhRI"
+          class="Infostyled__Title-sc-1c5crsb-1 bTsvHP"
         >
           Episodes: 2
         </p>
         <p
-          class="Descriptionstyled__Text-sc-1d7kuch-0 brdlA-D"
+          class="Descriptionstyled__Text-sc-1d7kuch-0 gFVcQU"
         >
           <span
-            class="Descriptionstyled__Span-sc-1d7kuch-1 guhlyX"
+            class="Descriptionstyled__Span-sc-1d7kuch-1 erJcwk"
           >
             First appearance
           </span>
           : Pilot:S01E01
         </p>
         <p
-          class="Descriptionstyled__Text-sc-1d7kuch-0 brdlA-D"
+          class="Descriptionstyled__Text-sc-1d7kuch-0 gFVcQU"
         >
           <span
-            class="Descriptionstyled__Span-sc-1d7kuch-1 guhlyX"
+            class="Descriptionstyled__Span-sc-1d7kuch-1 erJcwk"
           >
             First appearance air date
           </span>
           : December 2, 2013
         </p>
         <p
-          class="Descriptionstyled__Text-sc-1d7kuch-0 brdlA-D"
+          class="Descriptionstyled__Text-sc-1d7kuch-0 gFVcQU"
         >
           <span
-            class="Descriptionstyled__Span-sc-1d7kuch-1 guhlyX"
+            class="Descriptionstyled__Span-sc-1d7kuch-1 erJcwk"
           >
             First appearance character count
           </span>
           : 19
         </p>
         <p
-          class="Descriptionstyled__Text-sc-1d7kuch-0 brdlA-D"
+          class="Descriptionstyled__Text-sc-1d7kuch-0 gFVcQU"
         >
           <span
-            class="Descriptionstyled__Span-sc-1d7kuch-1 guhlyX"
+            class="Descriptionstyled__Span-sc-1d7kuch-1 erJcwk"
           >
             Last appearance
           </span>
           : Star Mort: Rickturn of the Jerri:S04E10
         </p>
         <p
-          class="Descriptionstyled__Text-sc-1d7kuch-0 brdlA-D"
+          class="Descriptionstyled__Text-sc-1d7kuch-0 gFVcQU"
         >
           <span
-            class="Descriptionstyled__Span-sc-1d7kuch-1 guhlyX"
+            class="Descriptionstyled__Span-sc-1d7kuch-1 erJcwk"
           >
             Last appearance
           </span>
           : May 31, 2020
         </p>
         <p
-          class="Descriptionstyled__Text-sc-1d7kuch-0 brdlA-D"
+          class="Descriptionstyled__Text-sc-1d7kuch-0 gFVcQU"
         >
           <span
-            class="Descriptionstyled__Span-sc-1d7kuch-1 guhlyX"
+            class="Descriptionstyled__Span-sc-1d7kuch-1 erJcwk"
           >
             Last appearance
           </span>
