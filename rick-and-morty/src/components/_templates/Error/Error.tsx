@@ -8,16 +8,16 @@ import Image from "next/image";
 import { ImageWrapper, Wrapper, Title } from "./Error.styled";
 
 interface IErrorProps {
-  children?: React.ReactNode;
+  error: number;
 }
 
-const Error: React.FC<IErrorProps> = () => {
+const Error: React.FC<IErrorProps> = ({ error }) => {
   return (
     <Wrapper>
       <ImageWrapper>
-        <Image objectFit="cover" src={"/404.jpg"} alt={"wall with Rick"} layout="fill" />;
+        <Image objectFit="cover" src={"/error.jpg"} alt={"wall with Rick"} layout="fill" />;
       </ImageWrapper>
-      <Title>404 - here we go again</Title>
+      <Title>{`${error} - here we go again`}</Title>
     </Wrapper>
   );
 };
