@@ -6,7 +6,7 @@ import Image from "next/image";
 import { ImageWrapper } from "./Background.styled";
 
 interface IBackgroundProps {
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 const Background: React.FC<IBackgroundProps> = ({ children }) => {

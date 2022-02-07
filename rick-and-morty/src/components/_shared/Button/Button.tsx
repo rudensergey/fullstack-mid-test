@@ -7,7 +7,7 @@ import { Button } from "./Button.styled";
 
 interface IButtonProps {
   className?: string;
-  children: React.ReactNode;
+  children?: React.ReactNode;
   href?: string;
   as?: string;
   onClick?: (event: React.SyntheticEvent) => void;

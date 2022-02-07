@@ -1,0 +1,213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character template snapshot 1`] = `
+<div>
+  <div
+    class="Backgroundstyled__ImageWrapper-sc-7ewg2c-0 eEQsKR"
+  >
+    <div
+      style="display: block; overflow: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; margin: 0px;"
+    >
+      <img
+        alt="wall with Rick"
+        data-nimg="fill"
+        decoding="async"
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+      />
+      <noscript />
+    </div>
+    <div
+      class="Characterstyled__Wrapper-sc-18gu1ab-0 bFefXC"
+    >
+      <p
+        class="Characterstyled__Title-sc-18gu1ab-1 dntboA"
+      >
+        Rick and Morty
+      </p>
+      <button
+        class="Buttonstyled__Button-sc-1q754k2-1 Buttonstyled__Button-sc-1q754k2-0 eXKtlZ bqSPEA"
+      >
+        &lt; Back to charact listing
+      </button>
+      <div
+        class="Characterstyled__CharacterCore-sc-18gu1ab-2 jySwLa"
+      >
+        <div
+          class="Characterstyled__ImageWrapper-sc-18gu1ab-3 gHIeWe"
+        >
+          <div
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+          >
+            <div
+              style="box-sizing: border-box; display: block; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+              />
+            </div>
+            <img
+              alt="Rick Sanchez"
+              data-nimg="intrinsic"
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
+            />
+            <noscript />
+          </div>
+        </div>
+        <div
+          class="Characterstyled__CharacterCoreWrapper-sc-18gu1ab-4 ekIZXb"
+        >
+          <p
+            class="Characterstyled__Name-sc-18gu1ab-5 iEndtY"
+          >
+            Rick Sanchez
+          </p>
+          <p
+            class="Descriptionstyled__Text-sc-1d7kuch-0 brdlA-D"
+          >
+            <span
+              class="Descriptionstyled__Span-sc-1d7kuch-1 guhlyX"
+            >
+              Status
+            </span>
+            : Alive
+          </p>
+          <p
+            class="Descriptionstyled__Text-sc-1d7kuch-0 brdlA-D"
+          >
+            <span
+              class="Descriptionstyled__Span-sc-1d7kuch-1 guhlyX"
+            >
+              Origin
+            </span>
+            : Earth (C-137)
+          </p>
+        </div>
+      </div>
+      <div
+        class="Infostyled__Wrapper-sc-1c5crsb-0 iDfcrV"
+      >
+        <p
+          class="Infostyled__Title-sc-1c5crsb-1 kYnhRI"
+        >
+          Location Details
+        </p>
+        <p
+          class="Descriptionstyled__Text-sc-1d7kuch-0 brdlA-D"
+        >
+          <span
+            class="Descriptionstyled__Span-sc-1d7kuch-1 guhlyX"
+          >
+            Name
+          </span>
+          : Earth (Replacement Dimension)
+        </p>
+        <p
+          class="Descriptionstyled__Text-sc-1d7kuch-0 brdlA-D"
+        >
+          <span
+            class="Descriptionstyled__Span-sc-1d7kuch-1 guhlyX"
+          >
+            Type
+          </span>
+          : Planet
+        </p>
+        <p
+          class="Descriptionstyled__Text-sc-1d7kuch-0 brdlA-D"
+        >
+          <span
+            class="Descriptionstyled__Span-sc-1d7kuch-1 guhlyX"
+          >
+            Dimension
+          </span>
+          : Replacement Dimension
+        </p>
+        <p
+          class="Descriptionstyled__Text-sc-1d7kuch-0 brdlA-D"
+        >
+          <span
+            class="Descriptionstyled__Span-sc-1d7kuch-1 guhlyX"
+          >
+            No. of Residents
+          </span>
+          : 139
+        </p>
+      </div>
+      <div
+        class="Infostyled__Wrapper-sc-1c5crsb-0 iDfcrV"
+      >
+        <p
+          class="Infostyled__Title-sc-1c5crsb-1 kYnhRI"
+        >
+          Episodes: 2
+        </p>
+        <p
+          class="Descriptionstyled__Text-sc-1d7kuch-0 brdlA-D"
+        >
+          <span
+            class="Descriptionstyled__Span-sc-1d7kuch-1 guhlyX"
+          >
+            First appearance
+          </span>
+          : Pilot:S01E01
+        </p>
+        <p
+          class="Descriptionstyled__Text-sc-1d7kuch-0 brdlA-D"
+        >
+          <span
+            class="Descriptionstyled__Span-sc-1d7kuch-1 guhlyX"
+          >
+            First appearance air date
+          </span>
+          : December 2, 2013
+        </p>
+        <p
+          class="Descriptionstyled__Text-sc-1d7kuch-0 brdlA-D"
+        >
+          <span
+            class="Descriptionstyled__Span-sc-1d7kuch-1 guhlyX"
+          >
+            First appearance character count
+          </span>
+          : 19
+        </p>
+        <p
+          class="Descriptionstyled__Text-sc-1d7kuch-0 brdlA-D"
+        >
+          <span
+            class="Descriptionstyled__Span-sc-1d7kuch-1 guhlyX"
+          >
+            Last appearance
+          </span>
+          : Star Mort: Rickturn of the Jerri:S04E10
+        </p>
+        <p
+          class="Descriptionstyled__Text-sc-1d7kuch-0 brdlA-D"
+        >
+          <span
+            class="Descriptionstyled__Span-sc-1d7kuch-1 guhlyX"
+          >
+            Last appearance
+          </span>
+          : May 31, 2020
+        </p>
+        <p
+          class="Descriptionstyled__Text-sc-1d7kuch-0 brdlA-D"
+        >
+          <span
+            class="Descriptionstyled__Span-sc-1d7kuch-1 guhlyX"
+          >
+            Last appearance
+          </span>
+          : 13
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
