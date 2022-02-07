@@ -1,17 +1,35 @@
-name: tests
+name: checking
+
 on:
   push:
     branches:
       - develop
 
 jobs:
-  tasts-start:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
-          node-version: "14"
-      - run: yarn install
-      - run: yarn prepare
-      - run: yarn jest
+          node-version: "16"
+
+      - name: Install all dependencies
+        run: yarn install --frozen-lockfile
+      - name: Linting
+        run: yarn lint
+
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+
+      - name: Install all dependencies
+        run: yarn install --frozen-lockfile
+      - name: Build
+        run: yarn prepare
+      - name: Testing
+        run: yarn jest
