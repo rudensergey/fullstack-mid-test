@@ -6,23 +6,23 @@ import { NextPage } from "next";
 import Character from "@templates/Character";
 
 // mock
-import { data } from "@mock/singleCharacter.json";
+import { getCharacterData } from "@api";
 
 interface ICharacterPageProps {
-  data: LickApi.ICharacter;
-  id: number;
+  character: LickApi.ICharacter;
 }
 
 interface IGetServerSideProps {
   props: ICharacterPageProps;
 }
 
-const CharacterPage: NextPage<ICharacterPageProps> = ({ data }) => {
-  return <Character title={`Rick and Morty: ${data.name}`} data={data} />;
+const CharacterPage: NextPage<ICharacterPageProps> = ({ character }) => {
+  return <Character title={`Rick and Morty: ${character.name}`} character={character} />;
 };
 
 export async function getServerSideProps({ query }): Promise<IGetServerSideProps> {
-  return { props: { data, id: query.slug } };
+  const response = await getCharacterData(query.slug).catch((error) => console.error(error));
+  return { props: { character: response ? response.data.character : [] } };
 }
 
 export default CharacterPage;

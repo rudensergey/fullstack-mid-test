@@ -23,15 +23,15 @@ import {
 } from "./Character.styled";
 
 interface ICharacterTemplateProps {
-  data: LickApi.ICharacter;
+  character: LickApi.ICharacter;
   title: string;
 }
 
-const CharacterTemplate: React.FC<ICharacterTemplateProps> = ({ data, title }) => {
-  const { name, avatar, origin, status, location, episodes } = data;
+const CharacterTemplate: React.FC<ICharacterTemplateProps> = ({ character, title }) => {
+  const { name, image, origin, status, location, episode } = character;
 
   const locationData = getLocationData(location);
-  const episodeData = getEpisodeData(episodes);
+  const episodeData = getEpisodeData(episode);
 
   return (
     <Background>
@@ -43,7 +43,7 @@ const CharacterTemplate: React.FC<ICharacterTemplateProps> = ({ data, title }) =
         </Button>
         <CharacterCore>
           <ImageWrapper>
-            <Image src={avatar} alt={name} width={200} height={200} />
+            <Image src={image} alt={name} width={200} height={200} />
           </ImageWrapper>
           <CharacterCoreWrapper>
             <Name>{name}</Name>
@@ -52,7 +52,7 @@ const CharacterTemplate: React.FC<ICharacterTemplateProps> = ({ data, title }) =
           </CharacterCoreWrapper>
         </CharacterCore>
         <Info title={"Location Details"} description={locationData} />
-        {episodeData && <Info title={`Episodes: ${episodes.length}`} description={episodeData} />}
+        {episodeData && <Info title={`Episodes: ${episode.length}`} description={episodeData} />}
       </Wrapper>
     </Background>
   );

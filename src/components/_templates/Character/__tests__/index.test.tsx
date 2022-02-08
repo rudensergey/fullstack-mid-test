@@ -9,7 +9,7 @@ import { data } from "@mock/singleCharacter.json";
 
 describe("Character template", () => {
   it("snapshot", () => {
-    const { container } = render(<CharacterTemplate title="test" data={data} />);
+    const { container } = render(<CharacterTemplate title="test" character={data} />);
     expect(container).toMatchSnapshot();
   });
 });

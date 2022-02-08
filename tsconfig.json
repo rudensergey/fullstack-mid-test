@@ -18,9 +18,9 @@
     "paths": {
       "@templates/*": ["./src/components/_templates/*"],
       "@shared/*": ["./src/components/_shared/*"],
-      "@types": ["./src/components/types.ts"],
       "@mock/*": ["./mockdata/*"],
-      "@public/*": ["./public/*"]
+      "@api": ["./src/api/index.ts"],
+      "@apollo": ["./apollo-client.ts"]
     }
   },
   "include": ["next-env.d.ts", "src/**/*.d.ts", "**/*.ts", "**/*.tsx"],

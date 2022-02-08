@@ -50,7 +50,7 @@ exports[`Character template snapshot 1`] = `
               />
             </div>
             <img
-              alt="Rick Sanchez"
+              alt="Black Rick"
               data-nimg="intrinsic"
               decoding="async"
               src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -65,7 +65,7 @@ exports[`Character template snapshot 1`] = `
           <p
             class="Characterstyled__Name-sc-18gu1ab-5 dRmzYL"
           >
-            Rick Sanchez
+            Black Rick
           </p>
           <p
             class="Descriptionstyled__Text-sc-1d7kuch-0 gFVcQU"
@@ -85,7 +85,7 @@ exports[`Character template snapshot 1`] = `
             >
               Origin
             </span>
-            : Earth (C-137)
+            : unknown
           </p>
         </div>
       </div>
@@ -105,7 +105,7 @@ exports[`Character template snapshot 1`] = `
           >
             Name
           </span>
-          : Earth (Replacement Dimension)
+          : Citadel of Ricks
         </p>
         <p
           class="Descriptionstyled__Text-sc-1d7kuch-0 gFVcQU"
@@ -115,7 +115,7 @@ exports[`Character template snapshot 1`] = `
           >
             Type
           </span>
-          : Planet
+          : Space station
         </p>
         <p
           class="Descriptionstyled__Text-sc-1d7kuch-0 gFVcQU"
@@ -125,7 +125,7 @@ exports[`Character template snapshot 1`] = `
           >
             Dimension
           </span>
-          : Replacement Dimension
+          : unknown
         </p>
         <p
           class="Descriptionstyled__Text-sc-1d7kuch-0 gFVcQU"
@@ -135,7 +135,7 @@ exports[`Character template snapshot 1`] = `
           >
             No. of Residents
           </span>
-          : 139
+          : 2
         </p>
       </div>
       <div
@@ -154,7 +154,7 @@ exports[`Character template snapshot 1`] = `
           >
             First appearance
           </span>
-          : Pilot:S01E01
+          : The Rickshank Rickdemption:S03E01
         </p>
         <p
           class="Descriptionstyled__Text-sc-1d7kuch-0 gFVcQU"
@@ -164,7 +164,7 @@ exports[`Character template snapshot 1`] = `
           >
             First appearance air date
           </span>
-          : December 2, 2013
+          : April 1, 2017
         </p>
         <p
           class="Descriptionstyled__Text-sc-1d7kuch-0 gFVcQU"
@@ -174,7 +174,7 @@ exports[`Character template snapshot 1`] = `
           >
             First appearance character count
           </span>
-          : 19
+          : 2
         </p>
         <p
           class="Descriptionstyled__Text-sc-1d7kuch-0 gFVcQU"
@@ -184,7 +184,7 @@ exports[`Character template snapshot 1`] = `
           >
             Last appearance
           </span>
-          : Star Mort: Rickturn of the Jerri:S04E10
+          : The Ricklantis Mixup:S03E07
         </p>
         <p
           class="Descriptionstyled__Text-sc-1d7kuch-0 gFVcQU"
@@ -192,9 +192,9 @@ exports[`Character template snapshot 1`] = `
           <span
             class="Descriptionstyled__Span-sc-1d7kuch-1 erJcwk"
           >
-            Last appearance
+            Last appearance air date
           </span>
-          : May 31, 2020
+          : September 10, 2017
         </p>
         <p
           class="Descriptionstyled__Text-sc-1d7kuch-0 gFVcQU"
@@ -202,9 +202,9 @@ exports[`Character template snapshot 1`] = `
           <span
             class="Descriptionstyled__Span-sc-1d7kuch-1 erJcwk"
           >
-            Last appearance
+            Last appearance character count
           </span>
-          : 13
+          : 1
         </p>
       </div>
     </div>

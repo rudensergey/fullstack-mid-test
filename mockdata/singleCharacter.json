@@ -1,39 +1,103 @@
 {
   "data": {
-    "id": 1,
-    "name": "Rick Sanchez",
+    "id": 48,
+    "name": "Black Rick",
     "status": "Alive",
     "species": "Human",
     "gender": "Male",
-    "avatar": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+    "image": "https://rickandmortyapi.com/api/character/avatar/48.jpeg",
     "origin": {
-      "id": 1,
-      "name": "Earth (C-137)",
-      "type": "Planet",
-      "dimension": "Dimension C-137",
-      "noOfResidents": 27
+      "id": null,
+      "name": "unknown",
+      "type": null,
+      "dimension": null,
+      "residents": [
+        {
+          "status": "Alive",
+          "species": "Human",
+          "type": "",
+          "name": "Rick Sanchez",
+          "id": 1,
+          "gender": "Male",
+          "image": "https://rickandmortyapi.com/api/character/avatar/48.jpeg"
+        },
+        {
+          "status": "Alive",
+          "species": "Human",
+          "type": "",
+          "name": "Morty Smith",
+          "id": 2,
+          "gender": "Male",
+          "image": "https://rickandmortyapi.com/api/character/avatar/48.jpeg"
+        }
+      ]
     },
     "location": {
-      "id": 20,
-      "name": "Earth (Replacement Dimension)",
-      "type": "Planet",
-      "dimension": "Replacement Dimension",
-      "noOfResidents": 139
+      "type": "Space station",
+      "id": 3,
+      "name": "Citadel of Ricks",
+      "dimension": "unknown",
+      "residents": [
+        {
+          "status": "Alive",
+          "species": "Human",
+          "type": "",
+          "name": "Rick Sanchez",
+          "id": 1,
+          "gender": "Male",
+          "image": "https://rickandmortyapi.com/api/character/avatar/48.jpeg"
+        },
+        {
+          "status": "Alive",
+          "species": "Human",
+          "type": "",
+          "name": "Morty Smith",
+          "id": 2,
+          "gender": "Male",
+          "image": "https://rickandmortyapi.com/api/character/avatar/48.jpeg"
+        }
+      ]
     },
-    "episodes": [
+    "episode": [
       {
-        "id": 1,
-        "name": "Pilot",
-        "airDate": "December 2, 2013",
-        "noOfCharacters": 19,
-        "episode": "S01E01"
+        "id": 22,
+        "name": "The Rickshank Rickdemption",
+        "air_date": "April 1, 2017",
+        "episode": "S03E01",
+        "characters": [
+          {
+            "id": 1,
+            "name": "Rick Sanchez",
+            "status": "Alive",
+            "species": "Human",
+            "gender": "Male",
+            "image": "https://rickandmortyapi.com/api/character/avatar/48.jpeg"
+          },
+          {
+            "id": 2,
+            "name": "Morty Smith",
+            "status": "Alive",
+            "species": "Human",
+            "gender": "Male",
+            "image": "https://rickandmortyapi.com/api/character/avatar/48.jpeg"
+          }
+        ]
       },
       {
-        "id": 41,
-        "name": "Star Mort: Rickturn of the Jerri",
-        "airDate": "May 31, 2020",
-        "noOfCharacters": 13,
-        "episode": "S04E10"
+        "id": 28,
+        "name": "The Ricklantis Mixup",
+        "air_date": "September 10, 2017",
+        "episode": "S03E07",
+        "characters": [
+          {
+            "id": 1,
+            "name": "Rick Sanchez",
+            "status": "Alive",
+            "species": "Human",
+            "gender": "Male",
+            "image": "https://rickandmortyapi.com/api/character/avatar/48.jpeg"
+          }
+        ]
       }
     ]
   }

@@ -10,18 +10,18 @@ import Background from "@shared/Background";
 import { Wrapper, Title } from "./Main.styled";
 
 interface IMainTemplateProps {
-  data: { data: LickApi.ICharacterCore[] };
+  characters: LickApi.ICharacterCore[];
   className?: string;
   title: string;
 }
 
-const MainTemplate: React.FC<IMainTemplateProps> = ({ title, data: { data } }) => {
+const MainTemplate: React.FC<IMainTemplateProps> = ({ title, characters }) => {
   return (
     <Background>
       <Wrapper>
         <Meta title={title} />
         <Title>Rick and Morty</Title>
-        {data.map((char) => (
+        {characters.map((char) => (
           <Character key={char.id} {...char} />
         ))}
       </Wrapper>

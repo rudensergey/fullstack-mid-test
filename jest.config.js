@@ -8,9 +8,7 @@ module.exports = {
 
     "^@templates/(.*)$": "<rootDir>/src/components/_templates/$1",
     "^@shared/(.*)$": "<rootDir>/src/components/_shared/$1",
-    "^@types": "<rootDir>/src/components/types.ts",
     "^@mock/(.*)$": "<rootDir>/mockdata/$1",
-    "^@public/(.*)$": "<rootDir>/public/$1",
   },
 
   testPathIgnorePatterns: ["<rootDir>/node_modules/", "<rootDir>/.next/"],

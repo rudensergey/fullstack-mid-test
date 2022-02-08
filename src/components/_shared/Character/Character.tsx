@@ -9,11 +9,11 @@ import Image from "@shared/Image";
 // style
 import { Wrapper, TextBlock, ImageWrapper } from "./Character.styled";
 
-const Character: React.FC<LickApi.ICharacterCore> = ({ id, name, species, gender, avatar }) => {
+const Character: React.FC<LickApi.ICharacterCore> = ({ id, name, species, gender, image }) => {
   return (
     <Wrapper>
       <ImageWrapper>
-        <Image src={avatar} alt={"pic"} width={170} height={170} />
+        <Image src={image} alt={"pic"} width={170} height={170} />
       </ImageWrapper>
       <TextBlock>
         <Description description="Name" content={name} />

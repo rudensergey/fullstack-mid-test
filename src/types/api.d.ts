@@ -10,28 +10,28 @@ declare namespace LickApi {
     status: string;
     species: string;
     gender: string;
-    avatar: string;
+    image: string;
   }
 
   interface ICharacter extends ICharacterCore {
     origin: ILocation;
     location: ILocation;
-    episodes: IEpisode[];
+    episode: IEpisode[];
   }
 
   interface ILocation {
     id: number;
     name: string;
     type: string;
-    noOfResidents: number;
+    residents: ICharacterCore[];
     dimension: string;
   }
 
   interface IEpisode {
     id: number;
     name: string;
-    airDate: string;
-    noOfCharacters: number;
+    air_date: string;
     episode: string;
+    characters: ICharacterCore[];
   }
 }
