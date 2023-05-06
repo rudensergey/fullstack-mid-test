@@ -1,9 +1,5 @@
 # FullStack Mid Test
 
-Hi! Despite the fact that you stopped a hiring process I decided to finish this task because for me SSR is really interesting thing so this assignment is a great opportunity to work with: Next.js, Styled Components, Github actions etc.
-
-To be fair I decided to spend on the FE part only Sunday and Monday. BE part is not essential for me as I understand but I'm gonna do this tomorrow anyway :)
-
 ## App on vercel
 
 <br>https://fullstack-mid-test.vercel.app
